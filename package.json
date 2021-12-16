@@ -1,0 +1,23 @@
+{
+  "name": "quote-generator",
+  "version": "1.0.0",
+  "description": "a simple web quote generator",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrMizL/quote-generator.git"
+  },
+  "author": "Or Mizrahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrMizL/quote-generator/issues"
+  },
+  "homepage": "https://github.com/OrMizL/quote-generator#readme",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
